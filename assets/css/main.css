@@ -2730,7 +2730,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-/* Tiles */
+/* artic */
 
 	.tiles {
 		display: -moz-flex;
@@ -3466,6 +3466,7 @@ input, select, textarea {
 
 				#banner > .inner header > :first-child {
 					width: auto;
+					position: relative;
 				}
 
 					#banner > .inner header > :first-child:after {
