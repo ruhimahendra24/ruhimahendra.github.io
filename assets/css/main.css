@@ -1769,6 +1769,21 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.profile {
+		vertical-align: middle;
+ 		width: 200px;
+  		height:200px;
+		border-radius: 50%;
+		
+	  }
+
+	.arrow {
+ 		width: 100px;
+  		height:100px;
+
+	}
+	
+
 	header.major {
 		width: -moz-max-content;
 		width: -webkit-max-content;
@@ -1814,6 +1829,8 @@ input, select, textarea {
 		}
 
 	}
+	
+
 
 /* Form */
 
@@ -2827,8 +2844,9 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2),
+			.tiles article:nth-child(4n - 3), .tiles article:nth-child(4n - 4) {
+				width: 1000%;
 			}
 
 			/* .tiles article:nth-child(6n - 5):before {
@@ -3393,9 +3411,9 @@ input, select, textarea {
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 80vh;
 		margin-bottom: -3.25em;
-		max-height: 32em;
+		max-height: 50em;
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
@@ -3482,7 +3500,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 150vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
